@@ -27,4 +27,8 @@ rules:
     - except:
         - first-nested
       ignore:
+<<<<<<< HEAD
         - after-comment
+=======
+        - after-comment
+>>>>>>> 2f3f0f59aabccdce60e84bbec95bb17020d8b796
