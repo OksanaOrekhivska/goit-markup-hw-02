@@ -1,0 +1,192 @@
+:root {
+  --blue-active: #2196f3;
+
+  --black-text: #212121;
+
+  --black-light: #757575;
+
+  --background: #2f303a;
+
+  --bac-white: #ffffff;
+
+  --bac-gray: #e5e5e5;
+
+  --bac-dark-grey: #f5f4fa;
+
+  --white-text: #ffffff;
+
+  --white-text-op60: rgba(255, 255, 255, 0.6);
+
+  --black:  #000000;
+}
+
+body { 
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logotype {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1,19;
+  font-style: normal;
+}
+
+.page-links {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1,14;
+}
+
+.contact-links {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1,14;
+}
+
+.hero-title {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1,36;
+}
+
+.hero-button {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1,8;
+}
+
+.list-title {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1,14;
+}
+
+.list-text {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.our-work-title {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1,16;
+}
+
+.our-team-title {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1,16;
+}
+
+.employee-name {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1,18;
+}
+
+.employee-position {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1,18;
+}
+
+.address {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1,71;
+}
+
+<!-- сторінка портфоліо -->
+
+.filter-element {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1,62;
+}
+
+.filters-title {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.filters-text {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1,87;
+}
+
+.header {
+  background-color: var(--bac-white);
+}
+
+.hero {
+  background-color: var(--background);
+}
+.about-us {
+  background-color: var(--bac-gray);
+}
+
+.our-team {
+  background-color: var(--bac-dark-grey);
+}
+
+.footer {
+  background-color: var(--background);
+}
+
+.main {
+  background-color: var(--bac-gray);
+}
+
+.page-links .links {
+  color: var(--black-text);
+}
+
+.page-links .links:hover,
+.page-links .links:focus {
+  color: var(--blue-active);
+}
+
+.contact-links .links {
+  color: var(--black-light);
+}
+
+.contact-links .links:hover,
+.contact-links .links:focus {
+  color: var(--blue-active);
+}
