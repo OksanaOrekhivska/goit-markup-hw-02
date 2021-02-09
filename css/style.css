@@ -15,7 +15,7 @@
 
   --white-text-op60: rgba(255, 255, 255, 0.6);
 
-  --black:  #000000;
+  --black: #000000;
 }
 
 body { 
@@ -30,7 +30,7 @@ a {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1,19;
+  line-height: 1.19;
   font-style: normal;
 }
 
@@ -44,11 +44,15 @@ a {
 
 
 .page-links {
-  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1,14;
+  line-height: 1.14;
+
+}
+
+.page-links .links.current {
+  color: var(--blue-active);
 }
 
 .page-links .links {
@@ -60,16 +64,16 @@ a {
   color: var(--blue-active);
 }
 
+
 .contact-links {
-  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1,14;
+  line-height: 1.14;
 }
 
-.contact-links {
-color: var(--black-text); 
+.contact-links .links {
+  color: var(--black-light); 
 }
 
 .contact-links .links:hover,
@@ -78,32 +82,29 @@ color: var(--black-text);
 }
 
 .hero-title {
-  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1,36;
+  line-height: 1.36;
   color: var(--white);
   text-align: center;
-  }
 }
 
 .hero-button {
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1,8;
+  line-height: 1.8;
+  text-align: center;
 }
 
 .hero-button {
+  font-family: "Roboto", sans-serif;
   color: var(--white);
+  background-color: #2196f3;
 }
-
-.hero-button:hover,
-.hero-button:focus {
-  color: var(--blue-active);
-}
+  
 
 .visually-hidden {
   position: absolute;
@@ -119,16 +120,14 @@ color: var(--black-text);
 }
 
 .list-title {
-  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 1,14;
+  line-height: 1.14;
   color: var(--black-text);
 }
 
 .list-text {
-  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -137,48 +136,43 @@ color: var(--black-text);
 }
 
 .our-work-title {
-  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1,16;
+  line-height: 1.16;
   text-align: center;
   color: var(--black-text);
 }
 
 .our-team-title {
-  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1,16;
+  line-height: 1.16;
   color: var(--black-text);
 }
 
 .employee-name {
-  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1,18;
+  line-height: 1.18;
   color: var(--black-text);
 }
 
 .employee-position {
-  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1,18;
+  line-height: 1.18;
   color: var(--black-light);
 }
 
 .address {
-  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1,71;
+  line-height: 1.71;
 }
 
 .address {
@@ -194,6 +188,13 @@ color: var(--black-text);
   color: var(--white-text-op60);
 }
 
+.contact-links {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
 .contact-links .contact-l:hover,
 .contact-links .contact-l:focus {
   color: var(--blue-active);
@@ -203,7 +204,7 @@ color: var(--black-text);
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1,19;
+  line-height: 1.19;
   font-style: normal;
 }
 
@@ -218,15 +219,13 @@ color: var(--black-text);
 <!-- сторінка портфоліо -->
 
 .filter-element {
-  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1,62;
+  line-height: 1.62;
 }
 
 .filters-title {
-  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -234,11 +233,10 @@ color: var(--black-text);
 }
 
 .filters-text {
-  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1,87;
+  line-height: 1.87;
 }
 
 .header {
@@ -248,6 +246,7 @@ color: var(--black-text);
 .hero {
   background-color: var(--background);
 }
+
 .about-us {
   background-color: var(--bac-gray);
 }
@@ -264,20 +263,23 @@ color: var(--black-text);
   background-color: var(--bac-gray);
 }
 
- <!-- портфоліо -->
+<!-- портфоліо -->
 
 .button {
   color: var(--black-text);
-  background-color: var(--blue-active);
- }
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  font-family: "Roboto", sans-serif;
+}
 
 .button:hover,
 .button:focus {
   color: var(--white);
+  background-color: var(--blue-active);
 }
 
 .filters-title {
-  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -286,10 +288,9 @@ color: var(--black-text);
 }
 
 .filters-text {
-  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1,87;
+  line-height: 1.87;
   color: var(--black-light);
 }
